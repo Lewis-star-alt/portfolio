@@ -1,0 +1,23 @@
+[
+  {
+    "title": "ML Inference Hub",
+    "description": "Развертывание ML- моделей",
+    "tags": ["C++", "ONNX Runtime", "FastApi"],
+    "github": "https://github.com/Lewis-star-alt/ml-inference-hub",
+    "demo": null
+  },
+  {
+    "title": "Анализ данных курса",
+    "description": "Python-скрипты для визуализации прогресса и статистики по предметам.",
+    "tags": ["Python", "pandas", "matplotlib"],
+    "github": "https://github.com/username/course-analytics",
+    "demo": null
+  },
+  {
+    "title": "Математические утилиты",
+    "description": "Решение типовых задач по матанализу и линейной алгебре с пошаговым выводом.",
+    "tags": ["Python", "sympy"],
+    "github": "https://github.com/username/math-utils",
+    "demo": null
+  }
+]
