@@ -1,23 +1,44 @@
 [
   {
     "title": "ML Inference Hub",
-    "description": "Развертывание ML- моделей",
-    "tags": ["C++", "ONNX Runtime", "FastApi"],
+    "description": "Secure sklearn → ONNX → C++ Inference Pipeline. FastAPI-сервис с drag & drop загрузкой моделей, автоматической конвертацией в ONNX и C++ инференсом с микросекундной латентностью.",
+    "tags": ["Python", "FastAPI", "C++", "ONNX", "Docker", "scikit-learn"],
     "github": "https://github.com/Lewis-star-alt/ml-inference-hub",
     "demo": null
   },
   {
-    "title": "Анализ данных курса",
-    "description": "Python-скрипты для визуализации прогресса и статистики по предметам.",
-    "tags": ["Python", "pandas", "matplotlib"],
-    "github": "https://github.com/username/course-analytics",
+    "title": "Finance Bot",
+    "description": "Telegram-бот для управления личными финансами. Учёт расходов, категоризация транзакций, визуализация статистики.",
+    "tags": ["Python", "aiogram", "asyncio", "SQLite"],
+    "github": "https://github.com/Lewis-star-alt/finance-bot",
     "demo": null
   },
   {
-    "title": "Математические утилиты",
-    "description": "Решение типовых задач по матанализу и линейной алгебре с пошаговым выводом.",
-    "tags": ["Python", "sympy"],
-    "github": "https://github.com/username/math-utils",
+    "title": "cipher",
+    "description": "Мощная консольная утилита для шифрования подстановочными шифрами на Rust. Поддержка файлов, пользовательских алфавитов, режима добавления. Опубликована на crates.io.",
+    "tags": ["Rust", "CLI", "Cryptography"],
+    "github": "https://github.com/Lewis-star-alt/cipher",
+    "demo": null
+  },
+  {
+    "title": "User Generator",
+    "description": "Русскоязычный генератор реалистичных тестовых данных с веб-интерфейсом на FastAPI. 6+ локализаций, настройка пола и категорий данных, адаптивный дизайн.",
+    "tags": ["Python", "FastAPI", "Jinja2", "Faker", "HTML/CSS"],
+    "github": "https://github.com/Lewis-star-alt/user-generate",
+    "demo": null
+  },
+  {
+    "title": "Code Analyzer",
+    "description": "Статический анализатор кода на Rust. Поиск unsafe, unwrap, todo, магических чисел и небезопасных функций в Rust, C и C++. Гибкая настройка правил и форматов вывода.",
+    "tags": ["Rust", "CLI", "Static Analysis", "Regex"],
+    "github": "https://github.com/Lewis-star-alt/code_analyze",
+    "demo": null
+  },
+  {
+    "title": "Particle Simulation",
+    "description": "Интерактивная симуляция физики частиц на C++ с SFML. Гравитация, отскок от границ, добавление частиц мышью, независимая от FPS симуляция.",
+    "tags": ["C++", "SFML", "CMake", "Physics"],
+    "github": "https://github.com/Lewis-star-alt/particle-simulation",
     "demo": null
   }
 ]
