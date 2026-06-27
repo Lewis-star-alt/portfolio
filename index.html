@@ -84,8 +84,7 @@
             font-family: var(--font-mono);
         }
 
-        .nav-links a:hover,
-        .nav-links a.active {
+        .nav-links a:hover {
             color: var(--accent);
         }
 
@@ -690,8 +689,6 @@
     </footer>
 
     <script>
-        console.log('JS LOADED');
-
         const i18n = {
             ru: {
                 nav_about: 'about',
@@ -831,30 +828,6 @@
 
         observeReveals();
 
-        // Active nav highlight
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
-
-        function updateActiveNav() {
-            let current = '';
-            sections.forEach(function(section) {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.offsetHeight;
-                if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(function(link) {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
-        }
-
-        window.addEventListener('scroll', updateActiveNav);
-
         // Load projects
         async function loadProjects() {
             try {
@@ -909,6 +882,13 @@
 
         // Easter egg
         console.log('%c$ neofetch', 'color: #58a6ff; font-size: 14px; font-family: monospace;');
+        console.log('%cOS: EndeavourOS\n',
+'Shell: student\n',
+'WM: Hyprland\n',
+'Uptime: 1st course\n',
+'Resolution: 1920x1080\n',
+'Theme: Dark\n',
+'Icons: Papirus', 'font-family: monospace; line-height: 1.6; color: #c9d1d9;');
 
         // Init
         loadProjects();
