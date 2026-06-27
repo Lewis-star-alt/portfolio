@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио — Разработчик ИИ-систем</title>
-    <meta name="description" content="AI/ML разработчик. C++, Python, математика. Студент МОС ИИ.">
-    <meta property="og:title" content="Lewis — AI/ML Developer">
-    <meta property="og:description" content="C++ / Python / Mathematics">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://lewis-star-alt.github.io/portfolio">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧮</text></svg>">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -696,96 +690,97 @@
     </footer>
 
     <script>
-        // ===== I18N =====
+        console.log('JS LOADED');
+
         const i18n = {
             ru: {
-                nav_about: "about",
-                nav_skills: "skills",
-                nav_projects: "projects",
-                nav_contact: "contact",
-                hero_greeting: "привет, я Lewis",
-                hero_dev: "разработчик",
-                hero_desc: "Студент направления «Математическое обеспечение систем ИИ». Разбираюсь в математике. Пишу на C++ и Python. Пользователь EndeavourOS.",
-                btn_projects: "смотреть проекты",
-                btn_contact: "связаться",
-                section_about: "about",
-                section_skills: "skills",
-                section_projects: "projects",
-                section_contact: "contact",
-                about_p1: "Учусь на первом курсе специальности, связанной с математическим обеспечением систем искусственного интеллекта. Меня увлекает математика во всех её проявлениях — от чистой теории до прикладных методов оптимизации.",
-                about_p2: "В программировании предпочитаю C++ для производительных задач и Python для прототипирования и работы с данными. Использую EndeavourOS с Hyprland — ценю минимализм и контроль над системой.",
-                about_p3: "Сейчас активно изучаю алгоритмы, линейную алгебру, математический анализ и теорию категорий.",
-                skill_math_title: "Математика",
-                skill_math_desc: "Линейная алгебра, математический анализ, теория вероятностей, методы оптимизации",
-                skill_python_desc: "ML, веб-разработка, боты, работа с данными и автоматизация",
-                skill_cpp_desc: "Производительные вычисления, алгоритмы, десктопные приложения",
-                skill_ai_desc: "Нейронные сети, классическое машинное обучение, компьютерное зрение",
-                skill_db_title: "Базы данных",
-                skill_db_desc: "Проектирование схем, ORM, SQL-запросы и оптимизация",
-                skill_devops_title: "DevOps & Tools",
-                skill_devops_desc: "Контроль версий, контейнеризация, CI/CD основы",
-                skill_linux_desc: "Arch-based дистрибутивы, системное администрирование, tiling WM",
-                skill_backend_desc: "REST API, валидация данных, Telegram-боты, асинхронность",
-                contact_title: "Давайте работать вместе",
-                contact_desc: "Открыт к интересным проектам, стажировкам и просто обсуждению математики и кода."
+                nav_about: 'about',
+                nav_skills: 'skills',
+                nav_projects: 'projects',
+                nav_contact: 'contact',
+                hero_greeting: 'привет, я Lewis',
+                hero_dev: 'разработчик',
+                hero_desc: 'Студент направления «Математическое обеспечение систем ИИ». Разбираюсь в математике. Пишу на C++ и Python. Пользователь EndeavourOS.',
+                btn_projects: 'смотреть проекты',
+                btn_contact: 'связаться',
+                section_about: 'about',
+                section_skills: 'skills',
+                section_projects: 'projects',
+                section_contact: 'contact',
+                about_p1: 'Учусь на первом курсе специальности, связанной с математическим обеспечением систем искусственного интеллекта. Меня увлекает математика во всех её проявлениях — от чистой теории до прикладных методов оптимизации.',
+                about_p2: 'В программировании предпочитаю C++ для производительных задач и Python для прототипирования и работы с данными. Использую EndeavourOS с Hyprland — ценю минимализм и контроль над системой.',
+                about_p3: 'Сейчас активно изучаю алгоритмы, линейную алгебру, математический анализ и теорию категорий.',
+                skill_math_title: 'Математика',
+                skill_math_desc: 'Линейная алгебра, математический анализ, теория вероятностей, методы оптимизации',
+                skill_python_desc: 'ML, веб-разработка, боты, работа с данными и автоматизация',
+                skill_cpp_desc: 'Производительные вычисления, алгоритмы, десктопные приложения',
+                skill_ai_desc: 'Нейронные сети, классическое машинное обучение, компьютерное зрение',
+                skill_db_title: 'Базы данных',
+                skill_db_desc: 'Проектирование схем, ORM, SQL-запросы и оптимизация',
+                skill_devops_title: 'DevOps & Tools',
+                skill_devops_desc: 'Контроль версий, контейнеризация, CI/CD основы',
+                skill_linux_desc: 'Arch-based дистрибутивы, системное администрирование, tiling WM',
+                skill_backend_desc: 'REST API, валидация данных, Telegram-боты, асинхронность',
+                contact_title: 'Давайте работать вместе',
+                contact_desc: 'Открыт к интересным проектам, стажировкам и просто обсуждению математики и кода.'
             },
             en: {
-                nav_about: "about",
-                nav_skills: "skills",
-                nav_projects: "projects",
-                nav_contact: "contact",
-                hero_greeting: "hi, I am Lewis",
-                hero_dev: "developer",
-                hero_desc: "Student of Mathematical Support of AI Systems. Strong in math. Writing in C++ and Python. EndeavourOS user.",
-                btn_projects: "view projects",
-                btn_contact: "get in touch",
-                section_about: "about",
-                section_skills: "skills",
-                section_projects: "projects",
-                section_contact: "contact",
-                about_p1: "First-year student majoring in Mathematical Support of Artificial Intelligence Systems. Mathematics fascinates me in all its forms — from pure theory to applied optimization methods.",
-                about_p2: "In programming, I prefer C++ for performance tasks and Python for prototyping and data work. Using EndeavourOS with Hyprland — I value minimalism and control over the system.",
-                about_p3: "Currently actively studying algorithms, linear algebra, mathematical analysis, and category theory.",
-                skill_math_title: "Mathematics",
-                skill_math_desc: "Linear algebra, calculus, probability theory, optimization methods",
-                skill_python_desc: "ML, web development, bots, data processing and automation",
-                skill_cpp_desc: "High-performance computing, algorithms, desktop applications",
-                skill_ai_desc: "Neural networks, classical ML, computer vision",
-                skill_db_title: "Databases",
-                skill_db_desc: "Schema design, ORM, SQL queries and optimization",
-                skill_devops_title: "DevOps & Tools",
-                skill_devops_desc: "Version control, containerization, CI/CD basics",
-                skill_linux_desc: "Arch-based distros, system administration, tiling WM",
-                skill_backend_desc: "REST API, data validation, Telegram bots, async",
-                contact_title: "Let us work together",
-                contact_desc: "Open to interesting projects, internships, and just discussing math and code."
+                nav_about: 'about',
+                nav_skills: 'skills',
+                nav_projects: 'projects',
+                nav_contact: 'contact',
+                hero_greeting: 'hi, I am Lewis',
+                hero_dev: 'developer',
+                hero_desc: 'Student of Mathematical Support of AI Systems. Strong in math. Writing in C++ and Python. EndeavourOS user.',
+                btn_projects: 'view projects',
+                btn_contact: 'get in touch',
+                section_about: 'about',
+                section_skills: 'skills',
+                section_projects: 'projects',
+                section_contact: 'contact',
+                about_p1: 'First-year student majoring in Mathematical Support of Artificial Intelligence Systems. Mathematics fascinates me in all its forms — from pure theory to applied optimization methods.',
+                about_p2: 'In programming, I prefer C++ for performance tasks and Python for prototyping and data work. Using EndeavourOS with Hyprland — I value minimalism and control over the system.',
+                about_p3: 'Currently actively studying algorithms, linear algebra, mathematical analysis, and category theory.',
+                skill_math_title: 'Mathematics',
+                skill_math_desc: 'Linear algebra, calculus, probability theory, optimization methods',
+                skill_python_desc: 'ML, web development, bots, data processing and automation',
+                skill_cpp_desc: 'High-performance computing, algorithms, desktop applications',
+                skill_ai_desc: 'Neural networks, classical ML, computer vision',
+                skill_db_title: 'Databases',
+                skill_db_desc: 'Schema design, ORM, SQL queries and optimization',
+                skill_devops_title: 'DevOps & Tools',
+                skill_devops_desc: 'Version control, containerization, CI/CD basics',
+                skill_linux_desc: 'Arch-based distros, system administration, tiling WM',
+                skill_backend_desc: 'REST API, data validation, Telegram bots, async',
+                contact_title: 'Let us work together',
+                contact_desc: 'Open to interesting projects, internships, and just discussing math and code.'
             }
         };
 
-        let currentLang = "ru";
+        let currentLang = 'ru';
 
         function setLang(lang) {
             currentLang = lang;
-            document.querySelectorAll("[data-i18n]").forEach(el => {
-                const key = el.getAttribute("data-i18n");
+            document.querySelectorAll('[data-i18n]').forEach(function(el) {
+                const key = el.getAttribute('data-i18n');
                 if (i18n[lang][key]) {
                     el.textContent = i18n[lang][key];
                 }
             });
-            document.getElementById("btn-ru").classList.toggle("active", lang === "ru");
-            document.getElementById("btn-en").classList.toggle("active", lang === "en");
+            document.getElementById('btn-ru').classList.toggle('active', lang === 'ru');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
         }
 
-        // ===== TYPING EFFECT WITH ROTATION =====
+        // Typing effect with rotation
         const typingTexts = [
-            "C++ / Python / Mathematics",
-            "Linear Algebra / Calculus / Optimization",
-            "EndeavourOS + Hyprland"
+            'C++ / Python / Mathematics',
+            'Linear Algebra / Calculus / Optimization',
+            'EndeavourOS + Hyprland'
         ];
         let textIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
-        const subtitle = document.querySelector(".hero-subtitle");
+        const subtitle = document.querySelector('.hero-subtitle');
 
         function typeEffect() {
             const currentText = typingTexts[textIndex];
@@ -814,90 +809,106 @@
             setTimeout(typeEffect, isDeleting ? 40 : 80);
         }
 
-        // ===== SCROLL REVEAL (IntersectionObserver) =====
-        const revealObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add("active");
-                }
-            });
-        }, { threshold: 0.1 });
+        // Scroll reveal
+        function observeReveals() {
+            const reveals = document.querySelectorAll('.reveal');
 
-        document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+            function reveal() {
+                reveals.forEach(function(el) {
+                    const windowHeight = window.innerHeight;
+                    const elementTop = el.getBoundingClientRect().top;
+                    const revealPoint = 150;
 
-        // ===== ACTIVE NAV HIGHLIGHT =====
-        const sections = document.querySelectorAll("section[id]");
-        const navLinks = document.querySelectorAll(".nav-links a[href^='#']");
+                    if (elementTop < windowHeight - revealPoint) {
+                        el.classList.add('active');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', reveal);
+            reveal();
+        }
+
+        observeReveals();
+
+        // Active nav highlight
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
 
         function updateActiveNav() {
-            let current = "";
-            sections.forEach(section => {
+            let current = '';
+            sections.forEach(function(section) {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.offsetHeight;
                 if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
-                    current = section.getAttribute("id");
+                    current = section.getAttribute('id');
                 }
             });
 
-            navLinks.forEach(link => {
-                link.classList.remove("active");
-                if (link.getAttribute("href") === "#" + current) {
-                    link.classList.add("active");
+            navLinks.forEach(function(link) {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
                 }
             });
         }
 
-        window.addEventListener("scroll", updateActiveNav);
+        window.addEventListener('scroll', updateActiveNav);
 
-        // ===== LOAD PROJECTS =====
+        // Load projects
         async function loadProjects() {
             try {
-                const response = await fetch("projects.json");
-                if (!response.ok) throw new Error("Failed to load");
+                const response = await fetch('projects.json');
+                if (!response.ok) throw new Error('Failed to load');
                 const projects = await response.json();
-                const container = document.getElementById("projects-grid");
+                const container = document.getElementById('projects-grid');
 
                 if (projects.length === 0) {
                     container.innerHTML = '<p style="color: var(--text-muted); text-align: center; grid-column: 1/-1;">Проекты скоро появятся...</p>';
                     return;
                 }
 
-                container.innerHTML = projects.map(project => {
-                    const tagsHtml = project.tags.map(tag => `<span class="tag">${tag}</span>`).join("");
-                    const githubLink = project.github ? `<a href="${project.github}" title="GitHub">🔗</a>` : "";
-                    const demoLink = project.demo ? `<a href="${project.demo}" title="Demo">🚀</a>` : "";
+                let html = '';
+                for (let i = 0; i < projects.length; i++) {
+                    const project = projects[i];
+                    let tagsHtml = '';
+                    for (let j = 0; j < project.tags.length; j++) {
+                        tagsHtml += '<span class="tag">' + project.tags[j] + '</span>';
+                    }
 
-                    return `
-                        <div class="project-card reveal">
-                            <div class="project-header">
-                                <span class="project-folder">📁</span>
-                                <div class="project-links">
-                                    ${githubLink}
-                                    ${demoLink}
-                                </div>
-                            </div>
-                            <div class="project-body">
-                                <h3>${project.title}</h3>
-                                <p>${project.description}</p>
-                                <div class="skill-tags">
-                                    ${tagsHtml}
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                }).join("");
+                    let githubLink = '';
+                    if (project.github) {
+                        githubLink = '<a href="' + project.github + '" title="GitHub">🔗</a>';
+                    }
+                    let demoLink = '';
+                    if (project.demo) {
+                        demoLink = '<a href="' + project.demo + '" title="Demo">🚀</a>';
+                    }
 
-                container.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+                    html += '<div class="project-card reveal">';
+                    html += '<div class="project-header">';
+                    html += '<span class="project-folder">📁</span>';
+                    html += '<div class="project-links">' + githubLink + demoLink + '</div>';
+                    html += '</div>';
+                    html += '<div class="project-body">';
+                    html += '<h3>' + project.title + '</h3>';
+                    html += '<p>' + project.description + '</p>';
+                    html += '<div class="skill-tags">' + tagsHtml + '</div>';
+                    html += '</div></div>';
+                }
+
+                container.innerHTML = html;
+                observeReveals();
 
             } catch (error) {
-                console.error("Ошибка загрузки проектов:", error);
-                document.getElementById("projects-grid").innerHTML =
+                console.error('Ошибка загрузки проектов:', error);
+                document.getElementById('projects-grid').innerHTML = 
                     '<p style="color: var(--text-muted); text-align: center; grid-column: 1/-1;">Не удалось загрузить проекты. Проверьте консоль (F12).</p>';
             }
         }
 
-        // ===== EASTER EGG IN CONSOLE =====
-        console.log("%c$ neofetch", "color: #58a6ff; font-size: 14px; font-family: monospace;");
+        // Easter egg
+        console.log('%c$ neofetch', 'color: #58a6ff; font-size: 14px; font-family: monospace;');
 
         // Init
         loadProjects();
